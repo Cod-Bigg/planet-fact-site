@@ -6,7 +6,8 @@ class Planets extends Component{
         super(props);
         this.state = {
             content: "Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. Mercury is one of four terrestrial planets in the Solar System, and is a rocky body like Earth.",
-            source: "https://i.ibb.co/WgBTH70/planet-mercury-1.png"
+            source: "https://i.ibb.co/WgBTH70/planet-mercury-1.png",
+            
         }
     }
     innerButton = (evt) => {
@@ -45,6 +46,14 @@ class Planets extends Component{
              </div>
             </div>
         </div>
+        <div className ="planet-stats">
+                <div className="rotation planet-stats-style"> 
+                <p>Rotation Time:</p><p>{this.props.rotation}</p>
+                </div>
+                <div className="revolution planet-stats-style">{this.props.revolution}</div>
+                <div className="radius planet-stats-style">{this.props.radius}</div>
+                <div className="temp planet-stats-style">{this.props.temperature}</div>
+            </div>
     </div>
         )
     }

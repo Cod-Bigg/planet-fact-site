@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Planets planetName="Mercury"/>
+    <Planets planetName="Mercury" rotation="58.6 Days" revolution="87.97 Days" radius="2,439.7 KM" temperature="430°c"/>
   </React.StrictMode>,
   document.getElementById('root')
 );
