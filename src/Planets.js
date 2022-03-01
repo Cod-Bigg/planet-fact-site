@@ -36,6 +36,7 @@ class Planets extends Component{
             <div>
                 <img src={this.state.source} className="planetImg"/>
             </div>
+            
             <div className="planetInfo">
                <h1>{this.props.planetName}</h1>
                <p>{this.state.content}</p>
