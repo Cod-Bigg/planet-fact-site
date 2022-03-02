@@ -44,9 +44,12 @@ class Planets extends Component{
                <p>{this.state.content}</p>
                </div>
                 <div className="planet-button">
-               <button onClick={this.overviewButton}>01 Overview</button>
-               <button onClick={this.innerButton}>02 Internal Structure</button>
-               <button onClick={this.geologyButton}>03 Surface Geologist</button>
+               <button className="full-text" onClick={this.overviewButton}>01 Overview</button>
+               <button className="short-text" onClick={this.overviewButton}>Overview</button>
+               <button className="full-text" onClick={this.innerButton}>02 Internal Structure</button>
+               <button  className="short-text"onClick={this.innerButton}>structure</button>
+               <button className="full-text" onClick={this.geologyButton}>03 Surface Geologist</button>
+               <button className="short-text" onClick={this.geologyButton}>Surface</button>
              </div>
             </div>
         </div>

@@ -8,6 +8,9 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+.short-text{
+  display: none;
+}
 
 .nav-link, .navbar-brand{
   color:white;
@@ -133,3 +136,53 @@ h1{
     width: 20vw;
   }
   }
+  @media only screen and (max-width: 540px) {
+    .planetImg{
+      left: -60%;
+    }
+   
+    .planetInfo p{
+      width:400px;
+    }
+    .planet-stats{
+      display: flex;
+      flex-direction: column;
+      padding-top:100px;
+      margin-left: 25%;
+    }
+    .planet-button{
+      position:absolute;
+      top: -2vh;
+      flex-direction: row;
+      right:0px;
+      left: 150px;
+      }
+      .planet-button button{
+        border:none;
+      }
+      .planet-button button:hover{
+        border-bottom: 1px solid #B1D5E2;
+        padding-bottom: 3px;
+        background-color: transparent;
+        padding:0px;
+      }
+      .full-text{
+        display: none;
+      }
+      .short-text{
+        display: inline;
+      }
+    }
+    @media only screen and (max-width: 420px) {
+      .planetImg{
+        left: -65%;
+      }
+      .planet-button{
+        top: -4vh;
+      }
+      .planet-stats{
+        padding-top:200px;
+        padding-right: 130px;
+      }
+    }
+  
