@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import './index.css';
-
+import Navigation from "./Navigation";
 class Planets extends Component{
     constructor(props){
         super(props);
@@ -32,14 +32,17 @@ class Planets extends Component{
        
         return(
     <div>
+        <Navigation />
         <div className="img-text-container">
             <div>
                 <img src={this.state.source} className="planetImg"/>
             </div>
             
             <div className="planetInfo">
+                <div className="planet-heading-info">
                <h1>{this.props.planetName}</h1>
                <p>{this.state.content}</p>
+               </div>
                 <div className="planet-button">
                <button onClick={this.overviewButton}>01 Overview</button>
                <button onClick={this.innerButton}>02 Internal Structure</button>
@@ -47,13 +50,19 @@ class Planets extends Component{
              </div>
             </div>
         </div>
-        <div className ="planet-stats">
+            <div className ="planet-stats">
                 <div className="rotation planet-stats-style"> 
-                <p>Rotation Time:</p><p>{this.props.rotation}</p>
+                 <p>Rotation Time:</p><p>{this.props.rotation}</p>
                 </div>
-                <div className="revolution planet-stats-style">{this.props.revolution}</div>
-                <div className="radius planet-stats-style">{this.props.radius}</div>
-                <div className="temp planet-stats-style">{this.props.temperature}</div>
+                <div className="revolution planet-stats-style">
+                 <p>Revolution Time:</p><p>{this.props.revolution}</p>
+                </div>
+                <div className="radius planet-stats-style">
+                 <p>Radius:</p><p>{this.props.radius}</p>
+                </div>
+                <div className="temp planet-stats-style">
+                 <p>Avg Temp:</p><p>{this.props.temperature}</p>
+                </div>
             </div>
     </div>
         )

@@ -15,6 +15,7 @@ h1{
 }
 .planetImg{
   height:250px;
+  margin-left: 400px;
 }
 .planetInfo p {
   padding-top: 25px;
@@ -25,13 +26,12 @@ h1{
 .img-text-container{
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
   height: 500px;
 
 }
 .planetInfo{
-  width: 500px;
+ 
   line-height: 1.6em;
   letter-spacing: .05em;
   padding: 30px;
@@ -61,13 +61,18 @@ h1{
   display: flex;
   color: white;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 .planet-stats-style{
   border:.5px solid lightgrey;
-  padding: 15px;
-  margin: 55px;
-  width: 300px;
+  padding: 5px;
+  width: 200px;
+  margin: 10px;
+}
+.planet-stats-style p:nth-child(2){
+  font-size: 1.5em;
+  font-weight: bolder;
+  padding: 10px;
 }
 @media only screen and (max-width: 1400px) {
   .img-text-container{
@@ -101,20 +106,18 @@ h1{
     height: 200px;
   }
   .planetInfo{
-    height: 300px;
-    width:700px;
     display: flex;
   }
   .planetInfo p{
     font-size: .8em;
+    max-width: 400px;
   }
   .planet-button button{
     margin-bottom: 10px;
-    margin-left: 200px;
-    width: 250px;
+    margin-left: 50px;
+    max-width: 25vw;
     padding: 5px;
     font-size: .8em;
   }
- 
 }
 
