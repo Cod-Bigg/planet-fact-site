@@ -25,7 +25,6 @@ h1{
 }
 .planetImg{
   height:250px;
-  margin-left: 400px;
 }
 .planetInfo p {
   padding-top: 25px;
@@ -38,6 +37,7 @@ h1{
   flex-direction: row;
   align-items: center;
   height: 500px;
+ margin-left: 20%;
 
 }
 .planetInfo{
@@ -88,11 +88,12 @@ h1{
   .img-text-container{
     flex-direction: column;
    margin-top: 100px;
+   margin-right: 15%;
   }
   .planetImg{
     position: absolute;
     top: 130px;
-    left: 100px;
+    left: 40%;
     height: 200px;
   }
   .planetInfo{
@@ -118,16 +119,9 @@ h1{
    margin-right: 15%;
  }
 }
-@media only screen and (max-width: 1201px) {
-  .planetImg{
-    left: -5%;
-    
-  }
-
-}
 @media only screen and (max-width: 770px) {
   .planetImg{
-    left: -20%;
+    left: 35%;
   }
   .planet-button{
    margin-right:200px;
@@ -135,10 +129,17 @@ h1{
   .planet-button button{
     width: 20vw;
   }
+  .planet-stats{
+    margin-left: 15%;
+    margin-top: 35%;
+  }
   }
   @media only screen and (max-width: 540px) {
+    .img-text-container{
+      margin-right: 40%;
+    }
     .planetImg{
-      left: -60%;
+      left: 30%;
     }
    
     .planetInfo p{
@@ -148,7 +149,7 @@ h1{
       display: flex;
       flex-direction: column;
       padding-top:100px;
-      margin-left: 25%;
+      margin-left: 20%;
     }
     .planet-button{
       position:absolute;
@@ -175,14 +176,22 @@ h1{
     }
     @media only screen and (max-width: 420px) {
       .planetImg{
-        left: -65%;
+        left: 20%;
+      }
+      .img-text-container{
+        margin-left: 20%;
       }
       .planet-button{
         top: -4vh;
       }
       .planet-stats{
         padding-top:200px;
-        padding-right: 130px;
+        margin-right: 20%;
+      }
+
+    }
+    @media only screen and (max-width: 420px) {
+      .planet-stats{
+        margin-right: 60%;
       }
     }
-  
