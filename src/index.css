@@ -137,6 +137,9 @@ h1{
     margin-left: 15%;
     margin-top: 35%;
   }
+  .navbar-nav{
+    margin-right:90%;
+  }
   }
   @media only screen and (max-width: 540px) {
     .img-text-container{
