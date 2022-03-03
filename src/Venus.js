@@ -1,30 +1,30 @@
 import React, {Component} from "react";
 import './index.css';
-class Earth extends Component{
+class Venus extends Component{
     constructor(props){
         super(props);
         this.state = {
-            content: "Third planet from the Sun and the only known planet to harbor life. About 29.2% of Earth's surface is land with remaining 70.8% is covered with water. Earth's distance from the Sun, physical properties and geological history have allowed life to evolve and thrive.",
-            source:"https://i.ibb.co/dMrXCB7/planet-earth-1.png"
+            content: "TVenus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be, on rare occasions, visible to the naked eye in broad daylight.",
+            source:"https://i.ibb.co/Xx9m4Wj/planet-venus.png"
             
         }
     }
     innerButton = (evt) => {
         this.setState({
-            content: "Earth's interior, like that of the other terrestrial planets, is divided into layers by their chemical or physical (rheological) properties. The outer layer is a chemically distinct silicate solid crust, which is underlain by a highly viscous solid mantle.",
-            source: "https://i.ibb.co/tZhXTsz/planet-earth-internal.png"
+            content: "The similarity in size and density between Venus and Earth suggests they share a similar internal structure: a core, mantle, and crust. Like that of Earth, Venusian core is most likely at least partially liquid because the two planets have been cooling at about the same rate.",
+            source: "https://i.ibb.co/s1v322n/planet-jupiter-internal-1.png"
         })
     }
     overviewButton = (evt) => {
         this.setState({
-            content: "Third planet from the Sun and the only known planet to harbor life. About 29.2% of Earth's surface is land with remaining 70.8% is covered with water. Earth's distance from the Sun, physical properties and geological history have allowed life to evolve and thrive.",
-            source: "https://i.ibb.co/dMrXCB7/planet-earth-1.png"
+            content: "Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be, on rare occasions, visible to the naked eye in broad daylight.",
+            source: "https://i.ibb.co/Xx9m4Wj/planet-venus.png"
         })
     }
     geologyButton = (evt) => {
         this.setState({
-            content: "The total surface area of Earth is about 510 million km2. The continental crust consists of lower density material such as the igneous rocks granite and andesite. Less common is basalt, a denser volcanic rock that is the primary constituent of the ocean floors.",
-            source: "https://i.ibb.co/2djSSd1/geology-earth.png"
+            content: "Much of the Venusian surface appears to have been shaped by volcanic activity. Venus has several times as many volcanoes as Earth, and it has 167 large volcanoes that are over 100 km (60 mi) across. The only volcanic complex of this size on Earth is the Big Island of Hawaii.",
+            source:"https://i.ibb.co/1zPFKQK/geology-venus.png"
         })
     }
     render(){
@@ -69,4 +69,4 @@ class Earth extends Component{
         )
     }
 }
-export default Earth;
+export default Venus;

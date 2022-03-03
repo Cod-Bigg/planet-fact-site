@@ -1,30 +1,30 @@
 import React, {Component} from "react";
 import './index.css';
-class Earth extends Component{
+class Mars  extends Component{
     constructor(props){
         super(props);
         this.state = {
-            content: "Third planet from the Sun and the only known planet to harbor life. About 29.2% of Earth's surface is land with remaining 70.8% is covered with water. Earth's distance from the Sun, physical properties and geological history have allowed life to evolve and thrive.",
-            source:"https://i.ibb.co/dMrXCB7/planet-earth-1.png"
+            content: "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In English, Mars carries the name of the Roman god of war and is often referred to as the \"Red Planet\".",
+            source:"https://i.ibb.co/6Z9YZ3t/planet-mars.png"
             
         }
     }
     innerButton = (evt) => {
         this.setState({
-            content: "Earth's interior, like that of the other terrestrial planets, is divided into layers by their chemical or physical (rheological) properties. The outer layer is a chemically distinct silicate solid crust, which is underlain by a highly viscous solid mantle.",
-            source: "https://i.ibb.co/tZhXTsz/planet-earth-internal.png"
+            content: "Like Earth, Mars has differentiated into a dense metallic core overlaid by less dense materials. Scientists initially determined that the core is at least partially liquid. Current models of its interior imply a core consisting primarily of iron and nickel with about 16–17% sulfur.",
+            source: "https://i.ibb.co/h99BPbG/planet-mars-internal-1.png"
         })
     }
     overviewButton = (evt) => {
         this.setState({
-            content: "Third planet from the Sun and the only known planet to harbor life. About 29.2% of Earth's surface is land with remaining 70.8% is covered with water. Earth's distance from the Sun, physical properties and geological history have allowed life to evolve and thrive.",
-            source: "https://i.ibb.co/dMrXCB7/planet-earth-1.png"
+            content: "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In English, Mars carries the name of the Roman god of war and is often referred to as the \"Red Planet\".",
+            source: "https://i.ibb.co/6Z9YZ3t/planet-mars.png"
         })
     }
     geologyButton = (evt) => {
         this.setState({
-            content: "The total surface area of Earth is about 510 million km2. The continental crust consists of lower density material such as the igneous rocks granite and andesite. Less common is basalt, a denser volcanic rock that is the primary constituent of the ocean floors.",
-            source: "https://i.ibb.co/2djSSd1/geology-earth.png"
+            content: "Mars is a terrestrial planet whose surface consists of minerals containing silicon and oxygen, metals, and other elements that typically make up rock. The surface is primarily composed of tholeiitic basalt, although parts are more silica-rich than typical basalt.",
+            source:"https://i.ibb.co/KyJ7JsQ/geology-mars.png"
         })
     }
     render(){
@@ -69,4 +69,4 @@ class Earth extends Component{
         )
     }
 }
-export default Earth;
+export default Mars;

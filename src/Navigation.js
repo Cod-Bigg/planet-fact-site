@@ -15,16 +15,31 @@ class Navigation extends Component{
       <span class="navbar-toggler-icon "></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <NavLink class="navbar-brand justify-content-end" to="/">Hidden brand</NavLink>
+      <NavLink class="navbar-brand" to="/">Planets</NavLink>
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <NavLink class="nav-link active" aria-current="page" to="#">Home</NavLink>
+          <NavLink class="nav-link active" aria-current="page" to="/">Home</NavLink>
         </li>
         <li class="nav-item">
           <NavLink class="nav-link" to="/earth">Earth</NavLink>
         </li>
         <li class="nav-item">
-          <NavLink class="nav-link" to="#">Disabled</NavLink>
+          <NavLink class="nav-link" to="/jupiter">Jupiter</NavLink>
+        </li>
+        <li class="nav-item">
+          <NavLink class="nav-link" to="/venus">Venus</NavLink>
+        </li>
+        <li class="nav-item">
+          <NavLink class="nav-link" to="/mars">Mars</NavLink>
+        </li>
+        <li class="nav-item">
+          <NavLink class="nav-link" to="/saturn">Saturn</NavLink>
+        </li>
+        <li class="nav-item">
+          <NavLink class="nav-link" to="/uranus">Uranus</NavLink>
+        </li>
+        <li class="nav-item">
+          <NavLink class="nav-link" to="/neptune">Neptune</NavLink>
         </li>
       </ul>
     </div>

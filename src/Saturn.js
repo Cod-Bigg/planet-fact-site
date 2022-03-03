@@ -1,30 +1,30 @@
 import React, {Component} from "react";
 import './index.css';
-class Earth extends Component{
+class Saturn  extends Component{
     constructor(props){
         super(props);
         this.state = {
-            content: "Third planet from the Sun and the only known planet to harbor life. About 29.2% of Earth's surface is land with remaining 70.8% is covered with water. Earth's distance from the Sun, physical properties and geological history have allowed life to evolve and thrive.",
-            source:"https://i.ibb.co/dMrXCB7/planet-earth-1.png"
+            content: "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth. It only has one-eighth the average density of Earth.",
+            source:"https://i.ibb.co/MZwyDMR/planet-saturn.png"
             
         }
     }
     innerButton = (evt) => {
         this.setState({
-            content: "Earth's interior, like that of the other terrestrial planets, is divided into layers by their chemical or physical (rheological) properties. The outer layer is a chemically distinct silicate solid crust, which is underlain by a highly viscous solid mantle.",
-            source: "https://i.ibb.co/tZhXTsz/planet-earth-internal.png"
+            content: "Despite consisting mostly of hydrogen and helium, most of Saturn's mass is not in the gas phase, because hydrogen becomes a non-ideal liquid when the density is above 0.01 g/cm3, which is reached at a radius containing 99.9% of Saturn's mass.",
+            source:"https://i.ibb.co/41VFsw0/planet-saturn-internal.png"
         })
     }
     overviewButton = (evt) => {
         this.setState({
-            content: "Third planet from the Sun and the only known planet to harbor life. About 29.2% of Earth's surface is land with remaining 70.8% is covered with water. Earth's distance from the Sun, physical properties and geological history have allowed life to evolve and thrive.",
-            source: "https://i.ibb.co/dMrXCB7/planet-earth-1.png"
+            content: "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth. It only has one-eighth the average density of Earth.",
+            source: "https://i.ibb.co/MZwyDMR/planet-saturn.png"
         })
     }
     geologyButton = (evt) => {
         this.setState({
-            content: "The total surface area of Earth is about 510 million km2. The continental crust consists of lower density material such as the igneous rocks granite and andesite. Less common is basalt, a denser volcanic rock that is the primary constituent of the ocean floors.",
-            source: "https://i.ibb.co/2djSSd1/geology-earth.png"
+            content: "The outer atmosphere of Saturn contains 96.3% molecular hydrogen and 3.25% helium by volume. The planet's most famous feature is its prominent ring system, which is composed mostly of ice particles with a smaller amount of rocky debris and dust.",
+            source:"https://i.ibb.co/82VF61s/geology-saturn.png"
         })
     }
     render(){
@@ -69,4 +69,4 @@ class Earth extends Component{
         )
     }
 }
-export default Earth;
+export default Saturn;

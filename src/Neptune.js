@@ -1,30 +1,29 @@
 import React, {Component} from "react";
 import './index.css';
-class Earth extends Component{
+class Neptune  extends Component{
     constructor(props){
         super(props);
         this.state = {
-            content: "Third planet from the Sun and the only known planet to harbor life. About 29.2% of Earth's surface is land with remaining 70.8% is covered with water. Earth's distance from the Sun, physical properties and geological history have allowed life to evolve and thrive.",
-            source:"https://i.ibb.co/dMrXCB7/planet-earth-1.png"
-            
+            content: "Neptune is the eighth and farthest-known Solar planet from the Sun. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, more massive than its near-twin Uranus.",
+            source:"https://i.ibb.co/41rw7h1/planet-neptune.png"
         }
     }
     innerButton = (evt) => {
         this.setState({
-            content: "Earth's interior, like that of the other terrestrial planets, is divided into layers by their chemical or physical (rheological) properties. The outer layer is a chemically distinct silicate solid crust, which is underlain by a highly viscous solid mantle.",
-            source: "https://i.ibb.co/tZhXTsz/planet-earth-internal.png"
+            content: "Neptune's internal structure resembles that of Uranus. Its atmosphere forms about 5% to 10% of its mass and extends perhaps 10% to 20% of the way towards the core. Increasing concentrations of methane, ammonia and water are found in the lower regions.",
+            source:"https://i.ibb.co/0Gvjsyt/planet-neptune-internal.png"
         })
     }
     overviewButton = (evt) => {
         this.setState({
-            content: "Third planet from the Sun and the only known planet to harbor life. About 29.2% of Earth's surface is land with remaining 70.8% is covered with water. Earth's distance from the Sun, physical properties and geological history have allowed life to evolve and thrive.",
-            source: "https://i.ibb.co/dMrXCB7/planet-earth-1.png"
+            content: "Neptune's atmosphere is 80% hydrogen and 19% helium. A trace amount of methane is also present. Prominent absorption bands of methane exist at wavelengths above 600 nm, in the red and infrared portion of the spectrum.",
+            source:"https://i.ibb.co/41rw7h1/planet-neptune.png"
         })
     }
     geologyButton = (evt) => {
         this.setState({
-            content: "The total surface area of Earth is about 510 million km2. The continental crust consists of lower density material such as the igneous rocks granite and andesite. Less common is basalt, a denser volcanic rock that is the primary constituent of the ocean floors.",
-            source: "https://i.ibb.co/2djSSd1/geology-earth.png"
+            content: "The composition of Uranus's atmosphere is different from its bulk, consisting mainly of molecular hydrogen and helium. The helium molar fraction, i.e. the number of helium atoms per molecule of gas, is 0.15±0.03 in the upper troposphere.",
+            source:"https://i.ibb.co/TR0C5gz/geology-neptune.png"
         })
     }
     render(){
@@ -69,4 +68,4 @@ class Earth extends Component{
         )
     }
 }
-export default Earth;
+export default Neptune;

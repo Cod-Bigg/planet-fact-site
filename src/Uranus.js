@@ -1,30 +1,29 @@
 import React, {Component} from "react";
 import './index.css';
-class Earth extends Component{
+class Uranus  extends Component{
     constructor(props){
         super(props);
         this.state = {
-            content: "Third planet from the Sun and the only known planet to harbor life. About 29.2% of Earth's surface is land with remaining 70.8% is covered with water. Earth's distance from the Sun, physical properties and geological history have allowed life to evolve and thrive.",
-            source:"https://i.ibb.co/dMrXCB7/planet-earth-1.png"
-            
+            content: "Uranus is the seventh planet from the Sun. Its name is a reference to the Greek god of the sky, Uranus according to Greek mythology, was the great-grandfather of Ares. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System.",
+            source:"https://i.ibb.co/hVk9h38/planet-uranus.png"
         }
     }
     innerButton = (evt) => {
         this.setState({
-            content: "Earth's interior, like that of the other terrestrial planets, is divided into layers by their chemical or physical (rheological) properties. The outer layer is a chemically distinct silicate solid crust, which is underlain by a highly viscous solid mantle.",
-            source: "https://i.ibb.co/tZhXTsz/planet-earth-internal.png"
+            content: "The standard model of Uranus's structure is that it consists of three layers: a rocky (silicate/iron–nickel) core in the centre, an icy mantle in the middle and an outer gaseous hydrogen/helium envelope. The core is relatively small, with a mass of only 0.55 Earth masses.",
+            source:"https://i.ibb.co/JvzfxRw/planet-uranus-internal.png"
         })
     }
     overviewButton = (evt) => {
         this.setState({
-            content: "Third planet from the Sun and the only known planet to harbor life. About 29.2% of Earth's surface is land with remaining 70.8% is covered with water. Earth's distance from the Sun, physical properties and geological history have allowed life to evolve and thrive.",
-            source: "https://i.ibb.co/dMrXCB7/planet-earth-1.png"
+            content: "Uranus is the seventh planet from the Sun. Its name is a reference to the Greek god of the sky, Uranus according to Greek mythology, was the great-grandfather of Ares. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System.",
+            source: "https://i.ibb.co/hVk9h38/planet-uranus.png"
         })
     }
     geologyButton = (evt) => {
         this.setState({
-            content: "The total surface area of Earth is about 510 million km2. The continental crust consists of lower density material such as the igneous rocks granite and andesite. Less common is basalt, a denser volcanic rock that is the primary constituent of the ocean floors.",
-            source: "https://i.ibb.co/2djSSd1/geology-earth.png"
+            content: "The composition of Uranus's atmosphere is different from its bulk, consisting mainly of molecular hydrogen and helium. The helium molar fraction, i.e. the number of helium atoms per molecule of gas, is 0.15±0.03 in the upper troposphere.",
+            source:"https://i.ibb.co/d2Cpt7R/geology-uranus.png"
         })
     }
     render(){
@@ -69,4 +68,4 @@ class Earth extends Component{
         )
     }
 }
-export default Earth;
+export default Uranus;
