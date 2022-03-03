@@ -156,7 +156,7 @@ h1{
       top: -2vh;
       flex-direction: row;
       right:0px;
-      left: 150px;
+      left: 25%;
       }
       .planet-button button{
         border:none;
@@ -188,10 +188,8 @@ h1{
         padding-top:200px;
         margin-right: 20%;
       }
-
-    }
-    @media only screen and (max-width: 420px) {
-      .planet-stats{
-        margin-right: 60%;
+      .planet-button{
+        left: 18%;
       }
     }
+    
