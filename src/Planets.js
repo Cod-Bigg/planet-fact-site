@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import './index.css';
-import Navigation from "./Navigation";
 class Planets extends Component{
     constructor(props){
         super(props);
@@ -32,7 +31,6 @@ class Planets extends Component{
        
         return(
     <div>
-        <Navigation />
         <div className="img-text-container">
             <div>
                 <img src={this.state.source} className="planetImg"/>
