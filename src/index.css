@@ -8,6 +8,10 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+.nav-item{
+  
+  text-decoration: none;
+}
 .short-text{
   display: none;
 }
