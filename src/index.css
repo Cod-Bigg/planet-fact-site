@@ -30,6 +30,7 @@ h1{
 .planetImg{
   height:250px;
 }
+
 .planetInfo p {
   padding-top: 25px;
   text-align: justify;
@@ -40,7 +41,7 @@ h1{
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 500px;
+
  margin-left: 20%;
 
 }
@@ -75,7 +76,7 @@ h1{
   display: flex;
   color: white;
   justify-content: center;
-  margin-top: 150px;
+  margin-bottom: 150px;
 }
 .planet-stats-style{
   border:.5px solid lightgrey;
@@ -87,6 +88,9 @@ h1{
   font-size: 1.5em;
   font-weight: bolder;
   padding: 10px;
+}
+.planet-container{
+  margin-bottom: 20%;
 }
 @media only screen and (max-width: 1201px) {
   .img-text-container{
@@ -127,6 +131,12 @@ h1{
   .planetImg{
     left: 35%;
   }
+  .planetInfo p{
+    width:400px;
+    line-height: 1.6em;
+    letter-spacing: normal;
+    text-align: justify;
+  }
   .planet-button{
    margin-right:200px;
   }
@@ -151,6 +161,9 @@ h1{
    
     .planetInfo p{
       width:400px;
+      line-height: 1em;
+      letter-spacing: .1em;
+      text-align: center;
     }
     .planet-stats{
       display: flex;
@@ -167,12 +180,13 @@ h1{
       }
       .planet-button button{
         border:none;
+        margin-left: 5px;
       }
       .planet-button button:hover{
-        border-bottom: 1px solid #B1D5E2;
+        border-bottom: 5px solid #B1D5E2;
         padding-bottom: 3px;
         background-color: transparent;
-        padding:0px;
+       
       }
       .full-text{
         display: none;
@@ -199,4 +213,3 @@ h1{
         left: 18%;
       }
     }
-    

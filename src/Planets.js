@@ -31,6 +31,7 @@ class Planets extends Component{
        
         return(
     <div>
+        <div className="planet-container">
         <div className="img-text-container">
             <div>
                 <img src={this.state.source} className="planetImg"/>
@@ -64,6 +65,7 @@ class Planets extends Component{
                 <div className="temp planet-stats-style">
                  <p>Avg Temp:</p><p>{this.props.temperature}</p>
                 </div>
+            </div>
             </div>
     </div>
         )

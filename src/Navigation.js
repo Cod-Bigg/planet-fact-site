@@ -18,7 +18,7 @@ class Navigation extends Component{
       <NavLink className="navbar-brand" to="/">Planets</NavLink>
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <NavLink className="nav-link " aria-current="page" to="/">Home</NavLink>
+          <NavLink className="nav-link " aria-current="page" to="/">Mercury</NavLink>
         </li>
         <li className="nav-item">
           <NavLink className="nav-link" to="/earth">Earth</NavLink>
