@@ -76,7 +76,7 @@ h1{
   display: flex;
   color: white;
   justify-content: center;
-  margin-bottom: 150px;
+  margin-top: 10%;
 }
 .planet-stats-style{
   border:.5px solid lightgrey;
@@ -168,7 +168,6 @@ h1{
     .planet-stats{
       display: flex;
       flex-direction: column;
-      padding-top:100px;
       margin-left: 20%;
     }
     .planet-button{
