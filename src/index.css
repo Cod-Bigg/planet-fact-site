@@ -68,7 +68,7 @@ h1{
   font-size: 1em;
 }
 .planet-button button:hover{
-  background-color: #6D2ED5;
+  background-color: #B1D5E2;
   cursor: pointer;
   font-weight: bold;
 }
@@ -183,7 +183,7 @@ h1{
         margin-left: 5px;
       }
       .planet-button button:hover{
-        border-bottom: 5px solid #B1D5E2;
+        border-bottom: 1px solid #B1D5E2;
         padding-bottom: 3px;
         background-color: transparent;
        
@@ -234,7 +234,7 @@ h1{
           margin-left: 5px;
         }
         .planet-button button:hover{
-          border-bottom: 5px solid #B1D5E2;
+          border-bottom: 2px solid #B1D5E2;
           padding-bottom: 3px;
           background-color: transparent;
          

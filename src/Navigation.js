@@ -37,7 +37,7 @@ export const Nav = () => {
             <li className="nav-item">
               <NavLink
                 onClick={collapseNav}
-                className="nav-link active"
+                className="nav-link"
                 aria-current="page"
                 to="/"
               >
