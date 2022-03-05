@@ -14,7 +14,7 @@ export const Nav = () => {
     <nav className="navbar navbar-expand-lg sticky-top navbar-light navbar-dark">
       <div className="container-fluid">
         <NavLink onClick={collapseNav} className="navbar-brand" to="/">
-          Navbar
+          Planets
         </NavLink>
         <button
           ref={navButton}
